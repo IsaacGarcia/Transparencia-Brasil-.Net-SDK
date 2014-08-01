@@ -23,12 +23,14 @@ namespace Transparencia.Brasil.SDK.InfraStructure
             ConfigureHeaders();
         }
 
-        public T Get(string templateUri)
+        public T Get(string templateUri) 
         {
-            HttpResponseMessage response = _client.GetAsync(templateUri).Result;
+            HttpResponseMessage response = _client.GetAsync(_config.APIBaseAdress + templateUri).Result;
 
             if (response.IsSuccessStatusCode)
+            {
                 return response.Content.ReadAsAsync<T>().Result;
+            }
             else
                 throw new TransparenciaBrasilException(string.Concat(response.StatusCode.ToString(), " - ", response.ReasonPhrase));
         }

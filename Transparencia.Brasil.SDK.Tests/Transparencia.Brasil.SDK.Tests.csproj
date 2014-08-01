@@ -53,6 +53,15 @@
     <Compile Include="CandidatosTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Transparencia.Brasil.SDK\Transparencia.Brasil.SDK.csproj">
+      <Project>{b0ebeae1-7b8c-4383-92b7-de0a0f36c9f0}</Project>
+      <Name>Transparencia.Brasil.SDK</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

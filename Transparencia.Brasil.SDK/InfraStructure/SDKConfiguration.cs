@@ -63,9 +63,9 @@ namespace Transparencia.Brasil.SDK.InfraStructure
             SetAppToken();
         }
 
-        private string BuildAPIBaseAdress()
+        private void BuildAPIBaseAdress()
         {
-            return string.Concat(_host, _enviroment, _version);
+            APIBaseAdress = string.Concat(_host, _enviroment, _version);
         }
     }
 }

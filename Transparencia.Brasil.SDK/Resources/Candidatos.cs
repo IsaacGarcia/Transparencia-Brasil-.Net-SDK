@@ -17,9 +17,9 @@ namespace Transparencia.Brasil.SDK.Resources
             _apiClient = new APIClient<IList<Candidato>>();
         }
 
-        public IList<Candidato> ObterTodosOsCandidatos()
+        public IList<Candidato> ObterTodosOsCandidatos(string estado, string cargo)
         {
-            return _apiClient.Get("/candidatos");
+            return _apiClient.Get(string.Format("/candidatos?estado={0}&cargo={1}", estado, cargo));
         }
     }
 }

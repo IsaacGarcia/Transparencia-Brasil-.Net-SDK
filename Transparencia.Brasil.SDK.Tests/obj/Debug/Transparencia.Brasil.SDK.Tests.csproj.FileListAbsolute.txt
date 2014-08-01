@@ -3,3 +3,10 @@ D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Test
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\obj\Debug\Transparencia.Brasil.SDK.Tests.csprojResolveAssemblyReference.cache
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\obj\Debug\Transparencia.Brasil.SDK.Tests.dll
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\obj\Debug\Transparencia.Brasil.SDK.Tests.pdb
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Transparencia.Brasil.SDK.Tests.dll.config
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Transparencia.Brasil.SDK.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Transparencia.Brasil.SDK.pdb
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Newtonsoft.Json.xml
