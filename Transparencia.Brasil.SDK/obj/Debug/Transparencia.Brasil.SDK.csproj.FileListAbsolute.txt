@@ -1,0 +1,14 @@
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\obj\Debug\Transparencia.Brasil.SDK.csprojResolveAssemblyReference.cache
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Transparencia.Brasil.SDK.dll.config
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Transparencia.Brasil.SDK.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Transparencia.Brasil.SDK.pdb
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Newtonsoft.Json.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\System.Web.Http.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\System.Web.Http.WebHost.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\System.Web.Http.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\System.Web.Http.WebHost.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\obj\Debug\Transparencia.Brasil.SDK.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\obj\Debug\Transparencia.Brasil.SDK.pdb

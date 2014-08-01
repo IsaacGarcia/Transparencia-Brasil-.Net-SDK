@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Transparencia.Brasil.SDK.Entities
 {
-    class Candidato
+    public class Candidato
     {
     }
 }

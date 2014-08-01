@@ -9,12 +9,12 @@ using System.Threading.Tasks;
 
 namespace Transparencia.Brasil.SDK.InfraStructure
 {
-    public class Core
+    public class APIClient<T>
     {
         private HttpClient _client;
         private SDKConfiguration _config;
 
-        public Core()
+        public APIClient()
         {
             _config = new SDKConfiguration();
 
@@ -23,12 +23,12 @@ namespace Transparencia.Brasil.SDK.InfraStructure
             ConfigureHeaders();
         }
 
-        public HttpResponseMessage Get(string templateUri)
+        public T Get(string templateUri)
         {
             HttpResponseMessage response = _client.GetAsync(templateUri).Result;
 
             if (response.IsSuccessStatusCode)
-                return response;
+                return response.Content.ReadAsAsync<T>().Result;
             else
                 throw new TransparenciaBrasilException(string.Concat(response.StatusCode.ToString(), " - ", response.ReasonPhrase));
         }
