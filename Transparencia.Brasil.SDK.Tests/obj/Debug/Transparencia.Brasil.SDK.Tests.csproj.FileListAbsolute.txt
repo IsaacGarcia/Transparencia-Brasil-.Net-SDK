@@ -10,3 +10,7 @@ D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Test
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Transparencia.Brasil.SDK.pdb
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Net.Http.Formatting.xml
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\Newtonsoft.Json.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Web.Http.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Web.Http.WebHost.dll
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Web.Http.xml
+D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK.Tests\bin\Debug\System.Web.Http.WebHost.xml

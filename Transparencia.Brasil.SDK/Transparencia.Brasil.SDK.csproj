@@ -56,7 +56,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\Bem.cs" />
     <Compile Include="Entities\Candidato.cs" />
+    <Compile Include="Entities\Candidaturas.cs" />
+    <Compile Include="Entities\Doacao.cs" />
     <Compile Include="InfraStructure\SDKConfiguration.cs" />
     <Compile Include="InfraStructure\APIClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

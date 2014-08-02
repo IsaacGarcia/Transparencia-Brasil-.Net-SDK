@@ -10,16 +10,40 @@ namespace Transparencia.Brasil.SDK.Resources
 {
     public class Candidatos
     {
-        private APIClient<IList<Candidato>> _apiClient;
-
-        public Candidatos()
+        public IList<Candidato> Todos(string estado, string cargo)
         {
-            _apiClient = new APIClient<IList<Candidato>>();
+            APIClient<IList<Candidato>> apiClient = new APIClient<IList<Candidato>>();
+
+            return apiClient.Get(string.Format("/candidatos?estado={0}&cargo={1}", estado, cargo));
         }
 
-        public IList<Candidato> ObterTodosOsCandidatos(string estado, string cargo)
+        public Candidato PorId(int id)
         {
-            return _apiClient.Get(string.Format("/candidatos?estado={0}&cargo={1}", estado, cargo));
+            APIClient<Candidato> apiClient = new APIClient<Candidato>();
+
+            return apiClient.Get(string.Format("/candidatos/{0}", id));
         }
+
+        public IList<Bem> Bens(int id)
+        {
+            APIClient<IList<Bem>> apiClient = new APIClient<IList<Bem>>();
+
+            return apiClient.Get(string.Format("/candidatos/{0}/bens", id));
+        }
+
+        public IList<Doacao> Doadores(int id)
+        {
+            APIClient<IList<Doacao>> apiClient = new APIClient<IList<Doacao>>();
+
+            return apiClient.Get(string.Format("/candidatos/{0}/doadores", id));
+        }
+
+        public IList<Candidaturas> Candidaturas(int id)
+        {
+            APIClient<IList<Candidaturas>> apiClient = new APIClient<IList<Candidaturas>>();
+
+            return apiClient.Get(string.Format("/candidatos/{0}/candidaturas", id));
+        }
+
     }
 }
