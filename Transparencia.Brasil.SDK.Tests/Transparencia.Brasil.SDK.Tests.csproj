@@ -69,6 +69,8 @@
     <Compile Include="CandidatosTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ExemploDeCodigoDeConsumoTest.cs" />
+    <Compile Include="PartidosTest.cs" />
+    <Compile Include="EstadosTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

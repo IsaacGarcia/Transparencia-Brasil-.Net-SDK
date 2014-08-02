@@ -1,4 +1,3 @@
-D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\obj\Debug\Transparencia.Brasil.SDK.csprojResolveAssemblyReference.cache
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Transparencia.Brasil.SDK.dll.config
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Transparencia.Brasil.SDK.dll
 D:\Projetos\Sensedia\Transparencia-Brasil-.Net-SDK\Transparencia.Brasil.SDK\bin\Debug\Transparencia.Brasil.SDK.pdb

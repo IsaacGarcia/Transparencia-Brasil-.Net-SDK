@@ -56,15 +56,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Bem.cs" />
-    <Compile Include="Entities\Candidato.cs" />
-    <Compile Include="Entities\Candidaturas.cs" />
-    <Compile Include="Entities\Doacao.cs" />
+    <Compile Include="Entities\Candidato\Bem.cs" />
+    <Compile Include="Entities\Candidato\Candidato.cs" />
+    <Compile Include="Entities\Candidato\Candidaturas.cs" />
+    <Compile Include="Entities\Candidato\Doacao.cs" />
+    <Compile Include="Entities\Candidato\Estatisticas.cs" />
+    <Compile Include="Entities\Estado.cs" />
+    <Compile Include="Entities\Partido.cs" />
     <Compile Include="InfraStructure\SDKConfiguration.cs" />
     <Compile Include="InfraStructure\APIClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InfraStructure\TransparenciaBrasilException.cs" />
     <Compile Include="Resources\Candidatos.cs" />
+    <Compile Include="Resources\Estados.cs" />
+    <Compile Include="Resources\Partidos.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

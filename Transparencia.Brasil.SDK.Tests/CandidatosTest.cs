@@ -5,6 +5,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Collections.Generic;
 using Transparencia.Brasil.SDK.Entities;
+using Transparencia.Brasil.SDK.InfraStructure;
 
 namespace Transparencia.Brasil.SDK.Tests
 {
@@ -58,6 +59,13 @@ namespace Transparencia.Brasil.SDK.Tests
             Assert.IsTrue(candidaturas.Count > 0);
         }
 
+        [TestMethod]
+        [ExpectedException(typeof(TransparenciaBrasilException))]
+        public void obter_todos_as_estatisticas_do_candidato_pelo_seu_id()
+        {
+            var estatisticas = candidatos.Estatisticas(1682111);
 
+            Assert.IsTrue(estatisticas.Count > 0);
+        }
     }
 }

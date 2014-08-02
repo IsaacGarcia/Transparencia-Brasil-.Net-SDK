@@ -45,5 +45,11 @@ namespace Transparencia.Brasil.SDK.Resources
             return apiClient.Get(string.Format("/candidatos/{0}/candidaturas", id));
         }
 
+        public IList<Estatisticas> Estatisticas(int id)
+        {
+            APIClient<IList<Estatisticas>> apiClient = new APIClient<IList<Estatisticas>>();
+
+            return apiClient.Get(string.Format("/candidatos/{0}/estatisticas", id));
+        }
     }
 }
