@@ -8,11 +8,11 @@ using Transparencia.Brasil.SDK.InfraStructure;
 
 namespace Transparencia.Brasil.SDK.Resources
 {
-    public class Estados
+    public class Cargos
     {
-        public IList<Estado> Todos()
+        public IList<Cargo> Todos()
         {
-            return APIClientFactory<IList<Estado>>.Get("/estados");
+            return APIClientFactory<IList<Cargo>>.Get("/cargos");
         }
     }
 }

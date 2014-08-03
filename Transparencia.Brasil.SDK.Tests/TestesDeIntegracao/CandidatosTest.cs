@@ -60,12 +60,11 @@ namespace Transparencia.Brasil.SDK.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(TransparenciaBrasilException))]
         public void obter_todos_as_estatisticas_do_candidato_pelo_seu_id()
         {
             var estatisticas = candidatos.Estatisticas(1682111);
 
-            Assert.IsTrue(estatisticas.Count > 0);
+            Assert.AreEqual(estatisticas.Count, 0);
         }
     }
 }

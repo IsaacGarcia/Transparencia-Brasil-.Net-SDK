@@ -27,6 +27,8 @@ namespace Transparencia.Brasil.SDK.InfraStructure
         {
             HttpResponseMessage response = _client.GetAsync(_config.APIBaseAdress + templateUri).Result;
 
+            var result = _client.GetStringAsync(_config.APIBaseAdress + templateUri).Result;
+
             if (response.IsSuccessStatusCode)
             {
                 return response.Content.ReadAsAsync<T>().Result;

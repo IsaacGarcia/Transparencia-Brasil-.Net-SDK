@@ -61,14 +61,19 @@
     <Compile Include="Entities\Candidato\Candidaturas.cs" />
     <Compile Include="Entities\Candidato\Doacao.cs" />
     <Compile Include="Entities\Candidato\Estatisticas.cs" />
+    <Compile Include="Entities\Cargo.cs" />
     <Compile Include="Entities\Estado.cs" />
+    <Compile Include="Entities\Excelencia.cs" />
     <Compile Include="Entities\Partido.cs" />
+    <Compile Include="InfraStructure\APIClientFactory.cs" />
     <Compile Include="InfraStructure\SDKConfiguration.cs" />
     <Compile Include="InfraStructure\APIClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="InfraStructure\TransparenciaBrasilException.cs" />
     <Compile Include="Resources\Candidatos.cs" />
+    <Compile Include="Resources\Cargos.cs" />
     <Compile Include="Resources\Estados.cs" />
+    <Compile Include="Resources\Excelencias.cs" />
     <Compile Include="Resources\Partidos.cs" />
   </ItemGroup>
   <ItemGroup>

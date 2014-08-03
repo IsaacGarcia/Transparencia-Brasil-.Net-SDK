@@ -12,9 +12,7 @@ namespace Transparencia.Brasil.SDK.Resources
     {
         public IList<Partido> Todos()
         {
-            APIClient<IList<Partido>> apiClient = new APIClient<IList<Partido>>();
-
-            return apiClient.Get("/partidos");
+            return APIClientFactory<IList<Partido>>.Get("/partidos");
         }
     }
 }

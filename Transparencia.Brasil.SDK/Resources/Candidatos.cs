@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,44 +13,32 @@ namespace Transparencia.Brasil.SDK.Resources
     {
         public IList<Candidato> Todos(string estado, string cargo)
         {
-            APIClient<IList<Candidato>> apiClient = new APIClient<IList<Candidato>>();
-
-            return apiClient.Get(string.Format("/candidatos?estado={0}&cargo={1}", estado, cargo));
+            return APIClientFactory<IList<Candidato>>.Get(string.Format("/candidatos?estado={0}&cargo={1}", estado, cargo));
         }
 
         public Candidato PorId(int id)
         {
-            APIClient<Candidato> apiClient = new APIClient<Candidato>();
-
-            return apiClient.Get(string.Format("/candidatos/{0}", id));
+            return APIClientFactory<Candidato>.Get(string.Format("/candidatos/{0}", id));
         }
 
         public IList<Bem> Bens(int id)
         {
-            APIClient<IList<Bem>> apiClient = new APIClient<IList<Bem>>();
-
-            return apiClient.Get(string.Format("/candidatos/{0}/bens", id));
+            return APIClientFactory<IList<Bem>>.Get(string.Format("/candidatos/{0}/bens", id));
         }
 
         public IList<Doacao> Doadores(int id)
         {
-            APIClient<IList<Doacao>> apiClient = new APIClient<IList<Doacao>>();
-
-            return apiClient.Get(string.Format("/candidatos/{0}/doadores", id));
+            return APIClientFactory<IList<Doacao>>.Get(string.Format("/candidatos/{0}/doadores", id));
         }
 
         public IList<Candidaturas> Candidaturas(int id)
         {
-            APIClient<IList<Candidaturas>> apiClient = new APIClient<IList<Candidaturas>>();
-
-            return apiClient.Get(string.Format("/candidatos/{0}/candidaturas", id));
+            return APIClientFactory<IList<Candidaturas>>.Get(string.Format("/candidatos/{0}/candidaturas", id));
         }
 
         public IList<Estatisticas> Estatisticas(int id)
         {
-            APIClient<IList<Estatisticas>> apiClient = new APIClient<IList<Estatisticas>>();
-
-            return apiClient.Get(string.Format("/candidatos/{0}/estatisticas", id));
+            return APIClientFactory<IList<Estatisticas>>.Get(string.Format("/candidatos/{0}/estatisticas", id));
         }
     }
 }
